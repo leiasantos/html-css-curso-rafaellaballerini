@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+    
+}
+
+body{
+   background-color: #EFF3EA;
+   color: #001A6E;
+   font-family: "Poppins", serif;
+   font-weight: 400;
+}
+
+header{
+    padding: 2rem;
+    background-color: #252e30;
+    color: #EFF3EA;
+    text-align: center;
+}
+
+main{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+h2{
+    color: #C62300;
+    font-size: 1.2rem;
+}
+
+input[type="radio"],
+input[type="checkbox"]{
+    accent-color: #C62300;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="email"]
+{
+    width: 100%;
+    padding: 0.6rem;
+    border: 2px solid #C62300;
+    outline: none;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+input[type="date"]{
+    color: #C62300;
+}
+
+input::placeholder{
+    color: #C62300;
+}
+
+select{
+    cursor: pointer;
+    background-color: #86A788;
+    color:#001A6E;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    font-size: 1.2rem;
+}
+
+img{
+    width: 5rem;
+    border-radius: 5px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: #B2C9AD;
+    padding: 1rem;
+}
+
+td{
+    color: #331f19;
+    padding: 1rem; 
+}
+
+tfoot td{
+    text-align: center;
+}
+
+details{
+    background-color: #86A788;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+summary{
+    color: #331f19;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+ol{
+    margin-left: 1.5rem;
+}
+
+ol li{
+    color: #331f19;
+    padding: 0.2rem;
+}
+
+fieldset{
+    border: 2px solid #C62300;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+fieldset legend{
+    color: #C62300;
+    font-weight: 500;
+    padding: 0 0.5rem;
+}
+
+textarea{
+    background-color: #EFF3EA;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #C62300;
+}
+
+button{
+    background-color: #86A788;
+    border: none;
+    padding: 0.8rem;
+    color: #001A6E;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer{
+ background-color: #252e30;
+ padding:2rem ;
+ text-align: center;
+}
+
+.pg-footer{
+    color: #EFF3EA;
+}
+
+footer a{
+    color: #C62300;
+    text-decoration: none;
+}
